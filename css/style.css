@@ -1,0 +1,142 @@
+<style>
+
+/********** Base styles **********/
+
+* {
+  box-sizing: border-box;
+  font-family: serif;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 175%;
+}
+
+p {
+ padding:20px;
+ margin-top: 60px
+}
+
+div{
+  float:left;
+  position: relative;
+  
+}
+
+#page{
+  margin-left:5%;
+  margin-right: 5%;
+
+}
+
+#t1{
+  border: 1px solid black;
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+  margin:0px;
+  position: absolute;
+  right:0px;
+  height: 30px;
+  background-color: #FF8383;
+  font-size: 125%;
+}
+
+#t2{
+  border: 1px solid black;
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+  margin:0px;
+  position: absolute;
+  right:0px;
+  height: 30px;
+  background-color: #44FF33;
+  font-size: 125%;
+}
+
+#t3{
+  border: 1px solid black;
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+  margin:0px;
+  position: absolute;
+  right:0px;
+  height: 30px;
+  background-color: #4422FF;
+  font-size: 125%;
+}
+
+
+#d1{
+  background-color:grey;
+  border:1px solid black;
+  margin-bottom:20px;
+
+}
+
+#d2{
+  background-color:grey;
+  border:1px solid black;
+  margin-bottom:20px;
+
+}
+#d3{
+  background-color:grey;
+  border:1px solid black;
+}
+
+
+
+/********** Large devices only **********/
+@media (min-width: 992px)
+{
+  #d1 {
+    width: 31%;
+    margin-right: 3%
+  }
+  #d2 {
+    width: 31%;
+    margin-right: 3%
+  }
+  #d3 {
+    width: 31%;
+  }
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px)
+{
+  #d1 {
+    width: 48%; 
+  }
+  #d2 {
+    width: 48%;
+    float: right
+  }
+   #d3 {
+    width: 100%;
+  }
+  
+}
+
+
+/********** Small devices only **********/
+@media (max-width: 767px)
+{
+  #d1 {
+    width: 100%;
+  }
+  #d2 {
+    width: 100%;
+  }
+   #d3 {
+    width: 100%;
+  }
+  
+}
+
+</style>
+
